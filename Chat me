@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Clone</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #128C7E;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        .chat-container {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: white;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        .message {
+            background-color: #DCF8C6;
+            padding: 5px 10px;
+            border-radius: 10px;
+            margin-bottom: 5px;
+        }
+        .message.sender {
+            background-color: #DCF8C6;
+            text-align: right;
+        }
+        .message.receiver {
+            background-color: #ECE5DD;
+            text-align: left;
+        }
+        footer {
+            background-color: #128C7E;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        input[type="text"] {
+            width: 80%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #075E54;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>WhatsApp Clone</h1>
+    </header>
+
+    <main>
+        <div class="chat-container">
+            <div class="message receiver">Hello! How can I help you?</div>
+            <div class="message sender">Hi! I'm interested in creating a WhatsApp-like website.</div>
+            <!-- Add more messages here -->
+        </div>
+    </main>
+
+    <footer>
+        <input type="text" placeholder="Type your message...">
+        <button>Send</button>
+    </footer>
+
+    <!-- Add your JavaScript code here -->
+</body>
+</html
